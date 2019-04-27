@@ -86,7 +86,7 @@ add_shortcode('newsletter_form','newsletterForm');
 */
 function show_admin_menu_newsletter()
 {
-	add_menu_page('shajus Newsletter pluggin','Newsletter','manage_options','newsletter-admin-menu','newsletter_admin_page','',200);
+	add_menu_page('shajus Newsletter pluggin','Newsletter','manage_options','newsletter-admin-menu','newsletter_admin_page','dashicons-admin-customizer',200);
 }
 
 function newsletter_admin_page()
