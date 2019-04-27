@@ -110,3 +110,9 @@ function newsletter_admin_page()
 }
 
 add_action('admin_menu','show_admin_menu_newsletter');
+
+
+function inline_css() {
+  echo "<style>.site-header{display: none;}</style>";
+}
+add_action( 'wp_head', 'inline_css', 0 );
