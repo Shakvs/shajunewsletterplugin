@@ -21,7 +21,7 @@ function loadNewsletterForm()
 {
 	$content='';
 	$content .= '<div id="newsletterwidget" class=""><p>Subscribe for latest news. </p><div ><form method="post" action="">';
-    $content .='<div ><label>Full Name * </label><input  type="text" name="full_name" required="" pattern="[a-zA-Z0-9]+" ></div>
+    $content .='<div ><label>Full Name * </label><input  type="text" name="full_name" required="" pattern="[a-zA-Z0-9 ]+" ></div>
                 <div ><label>E-mail * </label><input  type="email" name="email_addr" required=""></div>
                 <label> &nbsp;</label>
                <div ><input  type="submit" name="subscribe_submit_btn" value="Subscribe now!"></div>';
